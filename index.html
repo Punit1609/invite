@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"><head><script id="ji-wafix">(function(){var M="Hello, I am RSVPing for Nikhil and Sanya's wedding celebration.";function fix(u){try{if(typeof u!=="string")return u;if(!/^(https?:)?\/\/(wa\.me|(api|web)\.whatsapp\.com)\b|^whatsapp:/i.test(u))return u;var ph=/wa\.me\/\+?\d{6,}/i.test(u)||/[?&]phone=\+?\d{6,}/i.test(u);if(!ph)return u;var m=u.match(/([?&])text=([^&#]*)/),t="";if(m){try{t=decodeURIComponent(m[2].replace(/\+/g," "));}catch(e){t=m[2];}}if(t.indexOf(M)>-1)return u;var n;if(!t)n=M;else if(/rsvp/i.test(t))n=t.replace(/[^\n.!?]*rsvp[^\n.!?]*[.!?]?/i,M);else return u;var e=encodeURIComponent(n);return m?u.replace(m[0],m[1]+"text="+e):u+(u.indexOf("?")>-1?"&":"?")+"text="+e;}catch(x){return u;}}document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href"),n=fix(h);if(n!==h)a.setAttribute("href",n);},true);var o=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=fix(u);return o.apply(window,a);};try{if(window.navigation)navigation.addEventListener("navigate",function(ev){var u=ev.destination&&ev.destination.url,n=fix(u);if(n!==u&&ev.cancelable){ev.preventDefault();location.href=n;}});}catch(e){}})();</script>
+<html lang="en"><head><script id="ji-wafix">(function(){var M="Hello, I am RSVPing for Punit and Swati's wedding celebration.";function fix(u){try{if(typeof u!=="string")return u;if(!/^(https?:)?\/\/(wa\.me|(api|web)\.whatsapp\.com)\b|^whatsapp:/i.test(u))return u;var ph=/wa\.me\/\+?\d{6,}/i.test(u)||/[?&]phone=\+?\d{6,}/i.test(u);if(!ph)return u;var m=u.match(/([?&])text=([^&#]*)/),t="";if(m){try{t=decodeURIComponent(m[2].replace(/\+/g," "));}catch(e){t=m[2];}}if(t.indexOf(M)>-1)return u;var n;if(!t)n=M;else if(/rsvp/i.test(t))n=t.replace(/[^\n.!?]*rsvp[^\n.!?]*[.!?]?/i,M);else return u;var e=encodeURIComponent(n);return m?u.replace(m[0],m[1]+"text="+e):u+(u.indexOf("?")>-1?"&":"?")+"text="+e;}catch(x){return u;}}document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href"),n=fix(h);if(n!==h)a.setAttribute("href",n);},true);var o=window.open;window.open=function(u){var a=[].slice.call(arguments);a[0]=fix(u);return o.apply(window,a);};try{if(window.navigation)navigation.addEventListener("navigate",function(ev){var u=ev.destination&&ev.destination.url,n=fix(u);if(n!==u&&ev.cancelable){ev.preventDefault();location.href=n;}});}catch(e){}})();</script>
   <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
   <meta name="googlebot" content="noindex, nofollow">
   <!--
-    Nikhil & Sanya wedding invitation
+    Punit & Swati wedding invitation
     (c) 2026 JoyInvite. All rights reserved.
     Build 20260926-77c55b002a9c
     This layout, its animation code and its assets are not licensed for reuse.
   -->
-  <meta charset="utf-8"><title>Nikhil &amp; Sanya | Wedding Invitation</title><meta property="og:title" content="Nikhil &amp; Sanya | Wedding Invitation"><meta name="twitter:title" content="Nikhil &amp; Sanya | Wedding Invitation"><meta name="description" content="You are invited to the wedding celebration of Nikhil and Sanya, 14 July 2028, Jaipur."><meta property="og:description" content="You are invited to the wedding celebration of Nikhil and Sanya, 14 July 2028, Jaipur."><meta name="twitter:description" content="You are invited to the wedding celebration of Nikhil and Sanya, 14 July 2028, Jaipur.">
+  <meta charset="utf-8"><title>Punit &amp; Swati | Wedding Invitation</title><meta property="og:title" content="Punit &amp; Swati | Wedding Invitation"><meta name="twitter:title" content="Punit &amp; Swati | Wedding Invitation"><meta name="description" content="You are invited to the wedding celebration of Punit and Swati, 11 December 2026, Delhi."><meta property="og:description" content="You are invited to the wedding celebration of Punit and Swati, 11 December 2026, Delhi."><meta name="twitter:description" content="You are invited to the wedding celebration of Punit and Swati, 11 December 2026, Delhi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://punit1609.github.io/invite/">
+  <meta property="og:image" content="https://punit1609.github.io/invite/images/preview-wide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Punit &amp; Swati">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://punit1609.github.io/invite/images/preview-wide.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fffaf6">
   
@@ -2023,6 +2031,65 @@
       transition: opacity .4s ease;
     }
     body.film-ready .film-status { opacity: 0; }
+  
+    /* Venue line as a link, when a function carries venueUrl. Inherits the card's --accent so each
+       function's link matches its own palette. */
+    .event-where-link{color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px;opacity:.9;transition:opacity .2s}
+    .event-where-link:hover,.event-where-link:focus-visible{opacity:1}
+  
+    /* ── swipeable tile (a function with `images: [...]`) ──────────────────────────────────────
+       The single-image rule stacks absolutely (inset:0), so a strip needs its own layout: the
+       images become flex items and position static again, or they would all pile at the origin.
+       scroll-snap does the paging natively -- no JS for the swipe itself, only for the dots. */
+    .event-media.is-gallery{display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+    .event-media.is-gallery::-webkit-scrollbar{display:none}
+    .event-media.is-gallery img{position:relative;inset:auto;flex:0 0 100%;width:100%;height:100%;scroll-snap-align:center;transform:none}
+    .event-dots{position:absolute;left:0;right:0;display:flex;gap:7px;justify-content:center;pointer-events:none;z-index:3;margin-top:-26px}
+    .event-dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.45);box-shadow:0 1px 3px rgba(0,0,0,.35);transition:background .25s,transform .25s}
+    .event-dots i.on{background:#fff;transform:scale(1.35)}
+  
+    /* ── card footer as two columns ─────────────────────────────────────────────────────────────
+       Date/time left, venue right, instead of stacked. The bottom-right of every card was dead
+       space while the stack pushed the copy down; side by side hands that height back to
+       .event-media, which is flex:1 1 auto and grows into it with no size set anywhere.
+       Re-stacks under 460px, where two columns are each too narrow to hold a date on one line. */
+    /* The divider was capped at min(280px,100%) -- a short rule, which suited the old stacked
+       footer. With date left and venue right it should span both, so the ❧ sits centred over
+       the whole row. The <i> halves are flex:1, so they just grow. */
+    .event-copy .event-divider{width:100%}
+    .event-foot{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:14px clamp(18px,3vw,34px)}
+    .event-foot .event-when{flex:1 1 auto}
+    .event-foot .event-place{flex:0 1 auto;align-items:flex-end;text-align:right}
+    /* Pin INSIDE the block, left of the text, so the venue's right edge is flush with the
+       card padding and mirrors the date on the left. With the pin outside on the right the
+       text was inset by the icon width while the left column started flush -- which read as
+       the venue not reaching the edge. */
+    .event-foot .event-where{align-items:flex-start}
+    .event-foot .event-where-text{align-items:flex-end}
+    @media (max-width:460px){
+      .event-foot{flex-direction:column;align-items:flex-start;gap:12px}
+      .event-foot .event-place{align-items:flex-start;text-align:left}
+      .event-foot .event-where{flex-direction:row}
+      .event-foot .event-where-text{align-items:flex-start}
+    }
+  
+    /* ── closing section: stop the card sitting on top of the bride ─────────────────────────────
+       .venue-inner is a CENTRED min(1120px) box with the 600px card pinned to its left, so on a
+       wide screen the card lands at the middle-left -- exactly where the bride is. Letting the
+       inner run full width pulls the card to the left gutter and frees the centre.
+       The background cannot be panned to fix this: at these proportions the image already fills
+       the width and only overflows vertically, so background-position-x does nothing. Zooming it
+       slightly is what creates the horizontal room, and then 0% pushes the couple right. */
+    @media (min-width: 900px){
+      .venue .venue-inner{width:100%;max-width:none}
+      .venue .venue-card{width:min(520px,46%)}
+      .venue{
+        background:
+          linear-gradient(90deg, rgba(22,10,12,.86), rgba(22,10,12,.30) 54%, rgba(22,10,12,.10)),
+          var(--closing-img, none) 0% 42% / 118% auto no-repeat,
+          #1a0c0e;
+      }
+    }
   </style>
 <style id="ji-manual"></style><style id="ji-fontfaces">@font-face{font-family:"Aphrodite Slim Ornaments";src:url("https://cdn.joyinvite.in/m/88d0358ad5f1f68eb6eb121f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Text";src:url("https://cdn.joyinvite.in/m/f24fd9d10d1da1c4e69eb46c.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Swash";src:url("https://cdn.joyinvite.in/m/45e135206601528213dfd2ef.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Endings";src:url("https://cdn.joyinvite.in/m/01dadcb6439f8b896812b3cc.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Contextual";src:url("https://cdn.joyinvite.in/m/9e2dd13dea29894bf659b554.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Historical";src:url("https://cdn.joyinvite.in/m/53eda5b7e894e247a3098bc8.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Stylistic";src:url("https://cdn.joyinvite.in/m/a93b1e9c49193d654ea561cc.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Pro";src:url("https://cdn.joyinvite.in/m/dbabd79c299757e696ab60a3.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Titling";src:url("https://cdn.joyinvite.in/m/4a239b6f93b6e47fd010a949.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Casta ThinSlanted";src:url("https://cdn.joyinvite.in/m/e471ee63a14dbbac277d90dd.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Casta Thin";src:url("https://cdn.joyinvite.in/m/f4671142bf62b755090590c5.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"CinzelDecorative Bold";src:url("https://cdn.joyinvite.in/m/424a03286933c3a81f7408e0.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"CinzelDecorative Black";src:url("https://cdn.joyinvite.in/m/ecc4c0c01c33efb4e6145282.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"edensor free";src:url("https://cdn.joyinvite.in/m/7f6e85d4b3801f1c75fdcec6.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Rebeque Demo";src:url("https://cdn.joyinvite.in/m/c785d11f68d341ff88cbaa88.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"TAN VIVRE LIBRE Regular";src:url("https://cdn.joyinvite.in/m/a669fb207a84b78e8927382b.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Afterglow FREE";src:url("https://cdn.joyinvite.in/m/7b68223b366ba2bee13bff08.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic thick";src:url("https://cdn.joyinvite.in/m/0d2168f2805808c53f8efd31.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic textoblique";src:url("https://cdn.joyinvite.in/m/2390221b7e597e319f9e6a43.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic boldoblique";src:url("https://cdn.joyinvite.in/m/57990c9467c1cb3e8ae3235d.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic bold";src:url("https://cdn.joyinvite.in/m/88b8dda8987ecdfaf647aec4.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic ligoblique";src:url("https://cdn.joyinvite.in/m/b2e62fafc01f5ad737421a88.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic thickoblique";src:url("https://cdn.joyinvite.in/m/2af21a70a03ad689237741d1.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic mediumoblique";src:url("https://cdn.joyinvite.in/m/6bc8a45bd5689fba8fdb0ec1.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic demioblique";src:url("https://cdn.joyinvite.in/m/b1da9000d286a92b36660d5f.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic medium";src:url("https://cdn.joyinvite.in/m/88cc7e0aa657575da7358bea.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic lig";src:url("https://cdn.joyinvite.in/m/433223e18d6198fe6653f9b5.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic bookoblique";src:url("https://cdn.joyinvite.in/m/80577aafa5b1e6590140b357.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic demi";src:url("https://cdn.joyinvite.in/m/a481d79031c2fab84ea05ff3.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic xlig";src:url("https://cdn.joyinvite.in/m/b05c7ccb758cc9fdc14a2f75.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic semi";src:url("https://cdn.joyinvite.in/m/d33a4991f521d9e4c75e04ce.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic text";src:url("https://cdn.joyinvite.in/m/153999352b17c5ef4384d27d.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic book";src:url("https://cdn.joyinvite.in/m/d370ec96b136d627c4d44fac.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic semioblique";src:url("https://cdn.joyinvite.in/m/dcf0092bb60eb68952441c02.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Fontspring DEMO allroundgothic xligoblique";src:url("https://cdn.joyinvite.in/m/fcdb6ad0285f7dc99ae5097a.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Allura Regular";src:url("https://cdn.joyinvite.in/m/6cd27c460940193cdf957129.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Anastasia Script Personal Use";src:url("https://cdn.joyinvite.in/m/ae64545d27120a0e1a0263c5.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"AngleciaProDisplay Italic";src:url("https://cdn.joyinvite.in/m/e234b736648d9c4924591422.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"AngleciaProDisplay Regular";src:url("https://cdn.joyinvite.in/m/26bc298b101204501f8345c5.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Ornaments 43";src:url("https://cdn.joyinvite.in/m/88d0358ad5f1f68eb6eb121f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Endings 43";src:url("https://cdn.joyinvite.in/m/01dadcb6439f8b896812b3cc.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Text 43";src:url("https://cdn.joyinvite.in/m/f24fd9d10d1da1c4e69eb46c.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Titling 43";src:url("https://cdn.joyinvite.in/m/4a239b6f93b6e47fd010a949.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Contextual 43";src:url("https://cdn.joyinvite.in/m/9e2dd13dea29894bf659b554.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Historical 43";src:url("https://cdn.joyinvite.in/m/53eda5b7e894e247a3098bc8.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Swash 43";src:url("https://cdn.joyinvite.in/m/45e135206601528213dfd2ef.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Stylistic 43";src:url("https://cdn.joyinvite.in/m/a93b1e9c49193d654ea561cc.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aphrodite Slim Pro 43";src:url("https://cdn.joyinvite.in/m/dbabd79c299757e696ab60a3.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aston Script";src:url("https://cdn.joyinvite.in/m/f35fa3b7ff2ba2cbdee997a4.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aston Script Pro Bold";src:url("https://cdn.joyinvite.in/m/382d4e80a27393ff7f3ce6e9.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Aston Script 54";src:url("https://cdn.joyinvite.in/m/f35fa3b7ff2ba2cbdee997a4.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Bachelorette PERSONAL USE ONLY";src:url("https://cdn.joyinvite.in/m/4f95260d128c2db5876781c7.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 vietnamese 500 normal";src:url("https://cdn.joyinvite.in/m/83bb3809377da6e3953526e8.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin 600 normal";src:url("https://cdn.joyinvite.in/m/a2f1e639430daf0696c7fa3d.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 vietnamese 600 normal";src:url("https://cdn.joyinvite.in/m/21a991737ba7c0d8738bf7e7.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin ext 700 normal";src:url("https://cdn.joyinvite.in/m/f3c4f3c6dd5e93323584631d.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin ext 800 normal";src:url("https://cdn.joyinvite.in/m/b2a7bef5482b7bae65bb6fa8.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 vietnamese 800 normal";src:url("https://cdn.joyinvite.in/m/34e778ffafe61339729ee4a8.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 vietnamese 700 normal";src:url("https://cdn.joyinvite.in/m/477df29a532c031116308da7.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin 400 normal";src:url("https://cdn.joyinvite.in/m/4a662912f01c72daf1cf31ec.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin ext 500 normal";src:url("https://cdn.joyinvite.in/m/9b59d42c50c130053ad4fa43.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin ext 600 normal";src:url("https://cdn.joyinvite.in/m/2dfd61d2251cf79a045a9902.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin 700 normal";src:url("https://cdn.joyinvite.in/m/1df9e1027140dc5c24da3388.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin 800 normal";src:url("https://cdn.joyinvite.in/m/6a7c9bd13f0c1fee9c9028dc.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin ext 400 normal";src:url("https://cdn.joyinvite.in/m/614eda387321bc3e22bcc095.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 vietnamese 400 normal";src:url("https://cdn.joyinvite.in/m/a2a29b13e619096392286243.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 latin 500 normal";src:url("https://cdn.joyinvite.in/m/6ea03630c9dcae41c9bc88c3.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 gujarati 600 normal";src:url("https://cdn.joyinvite.in/m/8b6aef56d2ecb7f14643346f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 gujarati 500 normal";src:url("https://cdn.joyinvite.in/m/d4d2cb380e7b318adacadeb9.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 gujarati 700 normal";src:url("https://cdn.joyinvite.in/m/6381e6495ade544f1f6484e0.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 gujarati 800 normal";src:url("https://cdn.joyinvite.in/m/b8fafad8d4d6d4cdae96c403.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"baloo bhai 2 gujarati 400 normal";src:url("https://cdn.joyinvite.in/m/1a4cf736c1c7f4ce8c8db8da.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Berlin Collection";src:url("https://cdn.joyinvite.in/m/00848e4bd544b893bc8aafc0.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Birds of Paradise  PERSONAL USE ONLY";src:url("https://cdn.joyinvite.in/m/902cc1990befe518edb6e5ef.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Light";src:url("https://cdn.joyinvite.in/m/29325fd149c712ca8f20371f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Regular";src:url("https://cdn.joyinvite.in/m/c3ded447da691dfc529db229.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Thin";src:url("https://cdn.joyinvite.in/m/928e3c937d4e15eea1616cee.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Bold";src:url("https://cdn.joyinvite.in/m/66c1da3c57cba58a6fb06c6f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Medium";src:url("https://cdn.joyinvite.in/m/94caf34b03b08aafff4964c3.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"BrockScript";src:url("https://cdn.joyinvite.in/m/057b31bd50269ab43f3881e4.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Candlescript Demo Version";src:url("https://cdn.joyinvite.in/m/f513240ab6fd203ea896c727.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Carattere Regular";src:url("https://cdn.joyinvite.in/m/4ad6e5e24b5f8c2030e4e015.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"CinzelDecorative Bold 91";src:url("https://cdn.joyinvite.in/m/424a03286933c3a81f7408e0.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"CinzelDecorative Black 91";src:url("https://cdn.joyinvite.in/m/ecc4c0c01c33efb4e6145282.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Cinzel Black";src:url("https://cdn.joyinvite.in/m/1c82a41d7b1f37c35055e444.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Cinzel Bold";src:url("https://cdn.joyinvite.in/m/803ba54b756b557cdb6c80ea.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"CinzelDecorative Regular";src:url("https://cdn.joyinvite.in/m/351f8d4f567f37fd0edf21be.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Cinzel Regular";src:url("https://cdn.joyinvite.in/m/49d9ccba83fce1807258a73e.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Dirtyline Studio   Casta Thin";src:url("https://cdn.joyinvite.in/m/f4671142bf62b755090590c5.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Dirtyline Studio   Casta ThinSlanted";src:url("https://cdn.joyinvite.in/m/e471ee63a14dbbac277d90dd.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"EFCO Brookshire";src:url("https://cdn.joyinvite.in/m/9c16261edc7f581bc557678f.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Forum Regular";src:url("https://cdn.joyinvite.in/m/5c9fbe9c4ce76d0269f5088d.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"GoodVibrations Script 400";src:url("https://cdn.joyinvite.in/m/eb9387476f88164b8ce9bed0.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Heshanty Bold";src:url("https://cdn.joyinvite.in/m/44608d0e6822af5b00be73c7.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Heshanty Regular";src:url("https://cdn.joyinvite.in/m/062552530c8fb8f3f8af0ca4.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Heshanty BoldExtrude";src:url("https://cdn.joyinvite.in/m/1da3f9460945cf611688c2b1.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Heshanty BoldOutline";src:url("https://cdn.joyinvite.in/m/b7e872cdbd0e9d2d891beecc.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Heshanty BoldGradient";src:url("https://cdn.joyinvite.in/m/2a061b0305f2b841ca877925.otf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Marcellus Regular";src:url("https://cdn.joyinvite.in/m/1cf0cd10b17d35e852729962.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"MOODERN";src:url("https://cdn.joyinvite.in/m/10b24c33ac94675f2576eb85.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Rebeque Demo 110";src:url("https://cdn.joyinvite.in/m/e492b7304261e5aa585f4794.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"StarsLove BottomHeavy";src:url("https://cdn.joyinvite.in/m/99cc2dd84bbc99b04adf7e3a.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"YatraOne Regular";src:url("https://cdn.joyinvite.in/m/7b2da38953ba9ca964405111.ttf");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Rebeque Demo";src:url("https://cdn.joyinvite.in/m/e492b7304261e5aa585f4794.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"TAN VIVRE LIBRE Regular";src:url("https://cdn.joyinvite.in/m/090305d1715908733edadf6f.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Afterglow FREE";src:url("https://cdn.joyinvite.in/m/14aee1766412dbe8e57948c2.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Light";src:url("https://cdn.joyinvite.in/m/e3a00206ea38a9836786e302.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Regular";src:url("https://cdn.joyinvite.in/m/c294d640b9539e860f2243fa.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Thin";src:url("https://cdn.joyinvite.in/m/c2a7679def2df4b66a975fb7.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Bold";src:url("https://cdn.joyinvite.in/m/0d81e4bd62f6f503e9bb6757.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Boston Angel Medium";src:url("https://cdn.joyinvite.in/m/059a71b17caeb47007f81bf3.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"MOODERN";src:url("https://cdn.joyinvite.in/m/8807f04761502d0ce5a911cc.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Rebeque Demo 110";src:url("https://cdn.joyinvite.in/m/c785d11f68d341ff88cbaa88.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}</style><script>(function(){var b=function(e){if(e.ctrlKey&&e.shiftKey&&/e/i.test(e.key)){e.preventDefault();e.stopPropagation();}};addEventListener("keydown",b,true);if(/(\?|&|#)edit/.test(location.search+location.hash)){try{history.replaceState(null,"",location.pathname);}catch(x){}}})();</script><meta name="joyinvite-locked" content="1"></head>
 <body class="is-locked" data-build="20260926-77c55b002a9c">
@@ -2030,10 +2097,10 @@
     <div class="gate-content">
       <p class="gate-kicker" id="gateKicker">Some journeys begin with a glance.<br>Ours begins with a promise.</p>
       <div class="gate-seal" aria-hidden="true"><span id="gateInitials">N · S</span></div>
-      <h1 class="gate-title" id="gateTitle"><span>Nikhil</span><em>&amp;</em><span>Sanya</span></h1>
+      <h1 class="gate-title" id="gateTitle"><span>Punit</span><em>&amp;</em><span>Swati</span></h1>
       <p class="gate-forever" id="gateForever" data-ji-bind="gateForever">Invite you to witness the beginning of their forever.</p>
       <button class="hashtag-enter" id="enterButton" type="button">
-        <strong id="gateHashtag" data-ji-bind="hashtag">#NikhilWedsSanya</strong>
+        <strong id="gateHashtag" data-ji-bind="hashtag">#PunitkiSwati</strong>
         <span id="gateEnterHint" data-ji-bind="gateEnterHint">Click the hashtag to enter</span>
       </button>
       <p class="film-status" id="filmStatus" aria-live="polite"></p>
@@ -2058,7 +2125,7 @@
   <nav class="site-nav" aria-label="Wedding navigation">
     <a class="nav-mark" href="#home">
       <span class="nav-monogram" id="navInitials">NS</span>
-      <b id="navNames">Nikhil &amp; Sanya</b>
+      <b id="navNames">Punit &amp; Swati</b>
     </a>
     <div class="nav-links">
       <a href="#film" id="navFilm" data-ji-bind="navFilm">Our Film</a>
@@ -2072,23 +2139,23 @@
     <section class="film-scroll" id="film" aria-label="Wedding film">
       <div class="film-sticky">
         <video id="scrollVideo" preload="auto" muted="" playsinline="" webkit-playsinline="" disablepictureinpicture="" disableremoteplayback="" aria-hidden="true" tabindex="-1" poster="images/film-poster.webp"></video>
-        <canvas id="filmCanvas" aria-label="Nikhil and Sanya wedding film"></canvas>
+        <canvas id="filmCanvas" aria-label="Punit and Swati wedding film"></canvas>
         <div class="film-label" id="filmLabel" data-ji-bind="filmLabel">Tap to play our film</div>
         <div class="film-copy">
           <div class="film-caption" data-start="0.38" data-end="0.66">
             <p class="film-lines" id="filmLines">A promise made.<br>A forever awaited.</p>
-            <h2 class="film-names" id="filmNames"><span>Nikhil</span><em>&amp;</em><span>Sanya</span></h2>
+            <h2 class="film-names" id="filmNames"><span>Punit</span><em>&amp;</em><span>Swati</span></h2>
             <p class="film-forever" id="filmForever">Invite you to witness the beginning of their forever.</p>
           </div>
           <div class="film-caption film-welcome" data-start="0.68" data-end="0.98">
             <p class="fw-lead" id="filmWelcomeLead" data-ji-bind="welcomeLead">We are honored to welcome you to the wedding ceremony of</p>
-            <h2 class="fw-name" id="filmGroomName">Nikhil</h2>
+            <h2 class="fw-name" id="filmGroomName">Punit</h2>
             <p class="fw-rel" id="filmGroomRelation" data-ji-bind="groomRelation">S/O</p>
-            <p class="fw-parents" id="filmGroomParents" data-ji-bind="groomParents">Mrs. Jyoti Valecha and Mr. Suresh Valecha</p>
+            <p class="fw-parents" id="filmGroomParents" data-ji-bind="groomParents">Mrs. Sabita Kumari and Mr. Manoj Kumar Singh</p>
             <p class="fw-with" id="filmWith" data-ji-bind="welcomeJoiner">with</p>
-            <h2 class="fw-name" id="filmBrideName">Sanya</h2>
+            <h2 class="fw-name" id="filmBrideName">Swati</h2>
             <p class="fw-rel" id="filmBrideRelation" data-ji-bind="brideRelation">D/O</p>
-            <p class="fw-parents" id="filmBrideParents" data-ji-bind="brideParents">Mrs. Sangeeta Rahuja and Mr. Vinod Kumar Rahuja</p>
+            <p class="fw-parents" id="filmBrideParents" data-ji-bind="brideParents">Mrs. Chanda Devi and Mr. Shailesh Kumar Singh</p>
           </div>
         </div>
         <div class="film-progress"><span id="filmProgress"></span></div>
@@ -2099,8 +2166,8 @@
 
     <div class="ribbon" aria-hidden="true">
       <div class="ribbon-track">
-        <span>Jaipur · July 2028</span><span data-ji-bind="ribbonLine">Two hearts, one celebration</span><span>#NikhilWedsSanya</span><span>Jaipur · July 2028</span><span>Two hearts, one celebration</span><span>#NikhilWedsSanya</span>
-        <span>Jaipur · July 2028</span><span>Two hearts, one celebration</span><span>#NikhilWedsSanya</span><span>Jaipur · July 2028</span><span>Two hearts, one celebration</span><span>#NikhilWedsSanya</span>
+        <span>Delhi · December 2026</span><span data-ji-bind="ribbonLine">Two hearts, one celebration</span><span>#PunitkiSwati</span><span>Delhi · December 2026</span><span>Two hearts, one celebration</span><span>#PunitkiSwati</span>
+        <span>Delhi · December 2026</span><span>Two hearts, one celebration</span><span>#PunitkiSwati</span><span>Delhi · December 2026</span><span>Two hearts, one celebration</span><span>#PunitkiSwati</span>
       </div>
     </div>
 
@@ -2133,7 +2200,7 @@
             <button class="scratch-reset" id="scratchReset" type="button" data-ji-bind="scratchAgain">Scratch again</button>
           </div>
           <p class="countdown-label" id="countdownTitle" data-ji-bind="countdownTitle">Count Down Board</p>
-          <div class="countdown" id="countdown" aria-label="Countdown to 14 July 2028">
+          <div class="countdown" id="countdown" aria-label="Countdown to 11 December 2026">
             <div class="count-unit"><b id="days">00</b><span id="lblDays" data-ji-bind="labelDays">Days</span></div>
             <div class="count-unit"><b id="hours">00</b><span id="lblHours" data-ji-bind="labelHours">Hours</span></div>
             <div class="count-unit"><b id="minutes">00</b><span id="lblMins" data-ji-bind="labelMins">Mins</span></div>
@@ -2161,16 +2228,16 @@
         <div class="venue-card reveal">
           <p class="closing-message" id="closingMessage" data-ji-bind="closingMessage">The best moments in life are meant to be shared. Thank you for being a part of our story. We can't wait to celebrate this beautiful beginning with you!</p>
           <p class="closing-signoff" id="closingSignOff" data-ji-bind="closingSignOff">With love,</p>
-          <p class="closing-names" id="closingNames">Nikhil &amp; Sanya</p>
+          <p class="closing-names" id="closingNames">Punit &amp; Swati</p>
           <div class="whatsapp-card on-dark" id="rsvp">
-            <div><small id="contactLabel" data-ji-bind="contactLabel">contact details</small><b id="rsvpNumber" data-ji-bind="rsvpNumber">+91 6375854465</b></div>
-            <a id="rsvpWhatsappLink" href="https://wa.me/916375854465?text=Hello%2C%20I%20am%20RSVPing%20for%20Nikhil%20and%20Sanya's%20wedding%20celebration." target="_blank" rel="noopener" aria-label="RSVP on WhatsApp">
+            <div><small id="contactLabel" data-ji-bind="contactLabel">contact details</small><b id="rsvpNumber" data-ji-bind="rsvpNumber">+91 9971598682</b></div>
+            <a id="rsvpWhatsappLink" href="https://wa.me/919971598682?text=Hello%2C%20I%20am%20RSVPing%20for%20Punit%20and%20Swati%27s%20wedding%20celebration." target="_blank" rel="noopener" aria-label="RSVP on WhatsApp">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.4-4.2a8.5 8.5 0 1 1 15.6-4.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path><path d="M8.2 7.7c.3-.5.6-.5.9-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.5.9 1.2 1.7 2.1 2.2.3.2.5.2.7 0l.8-1c.2-.2.4-.3.7-.2l1.8.8c.3.1.5.3.5.5 0 .3-.1 1.2-.7 1.7-.5.5-1.3.8-2.2.6-1-.2-2.8-.9-4.6-2.5-2.3-2-3-4.3-3.1-5.1 0-.4.1-.6.2-.8Z" fill="currentColor"></path></svg>
             </a>
           </div>
         </div>
       </div>
-      <div class="footer-line"><span id="footerNamesDate">Nikhil &amp; Sanya · July 2028</span><span id="footerLine" data-ji-bind="footerLine">Made with love for one beautiful beginning</span></div>
+      <div class="footer-line"><span id="footerNamesDate">Punit &amp; Swati · December 2026</span><span id="footerLine" data-ji-bind="footerLine">Made with love for one beautiful beginning</span></div>
     </section>
   </main>
 
@@ -2181,10 +2248,10 @@
        AI chat fills the names, parents, dates and functions for you.
        ================================================================ */
     const CONFIG = {
-  "groomName": "Nikhil",
-  "brideName": "Sanya",
-  "hashtag": "#NikhilWedsSanya",
-  "countdownIso": "2028-07-14T00:00:00+05:30",
+  "groomName": "Punit",
+  "brideName": "Swati",
+  "hashtag": "#PunitkiSwati",
+  "countdownIso": "2026-12-11T00:00:00+05:30",
   "gateKicker1": "Some journeys begin with a glance.",
   "gateKicker2": "Ours begins with a promise.",
   "gateForever": "Invite you to witness the beginning of their forever.",
@@ -2194,11 +2261,11 @@
   "filmLine2": "A forever awaited.",
   "welcomeLead": "We are honored to welcome you to the wedding ceremony of",
   "groomRelation": "S/O",
-  "groomParents": "Mrs. Jyoti Valecha and Mr. Suresh Valecha",
+  "groomParents": "Mrs. Sabita Kumari and Mr. Manoj Kumar Singh",
   "welcomeJoiner": "with",
   "brideRelation": "D/O",
-  "brideParents": "Mrs. Sangeeta Rahuja and Mr. Vinod Kumar Rahuja",
-  "city": "Jaipur",
+  "brideParents": "Mrs. Chanda Devi and Mr. Shailesh Kumar Singh",
+  "city": "Delhi",
   "ribbonLine": "Two hearts, one celebration",
   "scratchTitle": "Scratch to",
   "scratchTitleAccent": "Reveal",
@@ -2217,8 +2284,8 @@
   "closingMessage": "The best moments in life are meant to be shared. Thank you for being a part of our story. We can't wait to celebrate this beautiful beginning with you!",
   "closingSignOff": "With love,",
   "contactLabel": "contact details",
-  "rsvpNumber": "+91 6375854465",
-  "rsvpWhatsappMessage": "Hello, I am RSVPing for Nikhil and Sanya's wedding celebration.",
+  "rsvpNumber": "+91 9971598682",
+  "rsvpWhatsappMessage": "Hello, I am RSVPing for Punit and Swati's wedding celebration.",
   "footerLine": "Made with love for one beautiful beginning",
   "navFilm": "Our Film",
   "navFunctions": "Functions",
@@ -2230,139 +2297,77 @@
   "introImage": "images/intro.webp",
   "filmPoster": "images/film-poster.webp",
   "filmVideo": "video/film.mp4",
-  "closingImage": "images/closing.webp",
+  "closingImage": "images/bride_groom_holding_hands_back_view.webp",
   "functions": [
     {
       "enabled": true,
-      "name": "Ganesh Pooja",
-      "tagline": "blessings first",
-      "details": "Every beginning deserves a blessing. We fold our hands before Bappa and ask him to walk these seven days with us.",
-      "day": "Saturday",
-      "date": "08 July 2028",
-      "time": "09:00 AM Onwards",
-      "venueArea": "Temple Courtyard",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/ganesh-pooja.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Engagement",
-      "tagline": "the first sparkle",
-      "details": "A promise of love, sealed with a ring.",
-      "day": "Saturday",
-      "date": "08 July 2028",
-      "time": "07:00 PM Onwards",
-      "venueArea": "Banquet Lawn",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/engagement.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Mayra",
-      "tagline": "the mama's welcome",
-      "details": "Wrapped in love, blessed by family, celebrating the beautiful tradition of Mayra.",
+      "name": "Tilak",
+      "tagline": "the first blessing",
+      "details": "A tilak on the forehead, a promise in the heart — the families come together to begin it all.",
       "day": "Sunday",
-      "date": "09 July 2028",
-      "time": "11:00 AM Onwards",
-      "venueArea": "Haveli Entrance",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/mayra.webp"
+      "date": "06 December 2026",
+      "time": "06:00 PM Onwards",
+      "venueArea": "Zestin Banquets",
+      "venueName": "Sahibabad Site-4",
+      "image": "images/tilak_ceremony.webp",
+      "venueUrl": "https://www.google.com/maps/search/?api=1&query=Zestin%20Banquets%2C%20Sahibabad%20Site-4",
+      "focal": "50% 35%"
     },
     {
       "enabled": true,
-      "name": "Pool Party",
-      "tagline": "splash & chill",
-      "details": "Pool, drinks, and dips—the ultimate wedding mix.",
-      "day": "Sunday",
-      "date": "09 July 2028",
-      "time": "04:00 PM Onwards",
-      "venueArea": "Poolside Deck",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/pool-party.webp"
+      "name": "Sai Bhajan & Mehndi",
+      "tagline": "blessings first, colour after",
+      "details": "Every beginning deserves a blessing. We fold our hands before Sai Baba and ask him to walk us through the function — and then same hands are full of henna.",
+      "day": "Wednesday",
+      "date": "09 December 2026",
+      "time": "05:00 PM Onwards",
+      "venueArea": "Metro Suites Glitz",
+      "venueName": "",
+      "venueUrl": "https://www.google.com/maps/place/Metro+Suites+Glitz+Internal+Rd,+Sector+2C,+Vasundhara,+Ghaziabad,+Uttar+Pradesh+201012/@28.66694,77.3687086,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfa9bdb90c289:0xa8212ef0bca239c2!8m2!3d28.66694!4d77.3712835!16s%2Fg%2F11lmhmkg6l?entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D",
+      "kind": "mehndi",
+      "image": "images/sai_baba.webp",
+      "focal": "50% 14%"
     },
     {
       "enabled": true,
-      "name": "Mehendi",
-      "tagline": "green leaves, red hearts",
-      "details": "A celebration dipped in love and mehendi.",
-      "day": "Monday",
-      "date": "10 July 2028",
-      "time": "11:00 AM Onwards",
-      "venueArea": "Mehendi Garden",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/mehendi.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Carnival Night",
-      "tagline": "pastels & popcorn",
-      "details": "Roll up for a night of fun, food & festivities!",
-      "day": "Monday",
-      "date": "10 July 2028",
-      "time": "08:00 PM Onwards",
-      "venueArea": "Carnival Grounds",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/carnival-night.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Haldi",
-      "tagline": "sunshine & laughter",
-      "details": "Like haldi, may your love and bond become stronger with time.",
-      "day": "Tuesday",
-      "date": "11 July 2028",
-      "time": "10:00 AM Onwards",
-      "venueArea": "Poolside Garden",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/haldi.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Sangeet",
-      "tagline": "dance under the stars",
-      "details": "Dancing through the memories of yesterday and singing for the joy of tomorrow.",
-      "day": "Tuesday",
-      "date": "11 July 2028",
-      "time": "08:00 PM Onwards",
-      "venueArea": "Grand Ballroom",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/sangeet.webp"
+      "name": "Matkor & Haldi",
+      "tagline": "earth first, then turmeric",
+      "details": "Clay carried back from the earth, turmeric ground in the kitchen. The morning belongs to the women of both families — and to every song they still remember the words to.",
+      "day": "Thursday",
+      "date": "10 December 2026",
+      "time": "06:00 PM Onwards",
+      "venueArea": "Metro Suites Glitz",
+      "venueName": "",
+      "image": "images/haldi_groom.webp",
+      "venueUrl": "https://www.google.com/maps/place/Metro+Suites+Glitz+Internal+Rd,+Sector+2C,+Vasundhara,+Ghaziabad,+Uttar+Pradesh+201012/@28.66694,77.3687086,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfa9bdb90c289:0xa8212ef0bca239c2!8m2!3d28.66694!4d77.3712835!16s%2Fg%2F11lmhmkg6l?entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D",
+      "focal": "50% 35%"
     },
     {
       "enabled": true,
       "name": "Baraat",
       "tagline": "the grand arrival",
       "details": "Acknowledge the noise, admire the swag! Welcome to the groom and his crazy tribe.",
-      "day": "Wednesday",
-      "date": "12 July 2028",
-      "time": "06:00 PM Onwards",
-      "venueArea": "Resort Main Gate",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/baraat.webp"
+      "day": "Friday",
+      "date": "11 December 2026",
+      "time": "05:00 PM Onwards",
+      "venueArea": "Metro Suites Glitz",
+      "venueName": "",
+      "image": "images/groom_chariot_baraat.webp",
+      "focal": "50% 28%",
+      "venueUrl": "https://www.google.com/maps/place/Metro+Suites+Glitz+Internal+Rd,+Sector+2C,+Vasundhara,+Ghaziabad,+Uttar+Pradesh+201012/@28.66694,77.3687086,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfa9bdb90c289:0xa8212ef0bca239c2!8m2!3d28.66694!4d77.3712835!16s%2Fg%2F11lmhmkg6l?entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D"
     },
     {
       "enabled": true,
       "name": "Wedding",
       "tagline": "our sacred forever",
       "details": "With every step around the sacred fire, we take a step closer to 'Always'.",
-      "day": "Wednesday",
-      "date": "12 July 2028",
-      "time": "08:00 PM Onwards",
-      "venueArea": "Mandap Lawn",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/wedding.webp"
-    },
-    {
-      "enabled": true,
-      "name": "Reception",
-      "tagline": "the grand finale",
-      "details": "Love is like a tree. It grows and blossoms with care, but its roots hold strong, no matter what.",
       "day": "Friday",
-      "date": "14 July 2028",
+      "date": "11 December 2026",
       "time": "07:00 PM Onwards",
-      "venueArea": "Reception Lawn",
-      "venueName": "Kasturi Bagh, Jaipur",
-      "image": "images/closing.webp"
+      "venueArea": "Golden Moments Banquet",
+      "venueName": "",
+      "image": "images/wedding.webp",
+      "venueUrl": "https://google.com/maps?sca_esv=e9d0abc375669ec8&rlz=1C5GCEM_enIN1134IN1134&biw=1512&bih=790&output=search&q=golden+moments+banquet+vasundhara&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVb_kNJDbJh_Zr-NZfti9sLYNjDk2BmCE5tARZ5zrUaUw8868YwNZPF2L2VLG8SqztR0teC5Qwr4xcoaNe36KGQ4q8Bx5qrfcFF-qJ4J13fbos9dKWQts4-aGtgC33713p1mo03Wm3baMdk9JpUKRktcSOnGxj2M7vnS918TjL2s1kjMmWQ&entry=mc&ved=1t:200715&ictx=111"
     }
   ]
 };
@@ -2370,13 +2375,14 @@
     /* Colours follow the KIND of function, so a list that is reordered, cut
        down or filled by the AI still gives Haldi yellow and Mehendi green. */
     const EVENT_THEMES = {
+      devotional: { background: "#241a0e", accent: "#f2a93b" },
       ganesh:     { background: "#2c1c11", accent: "#f0b45a" },
       engagement: { background: "#2f1813", accent: "#f4907b" },
       mayra:      { background: "#2b1b10", accent: "#e5a862" },
       pool:       { background: "#102630", accent: "#5cc6ea" },
       mehndi:     { background: "#152a11", accent: "#96d47f" },
       carnival:   { background: "#2d1526", accent: "#f291c4" },
-      haldi:      { background: "#2e250b", accent: "#f5c748" },
+      haldi:      { background: "#3e2f08", accent: "#ffd45c" },
       sangeet:    { background: "#231737", accent: "#bd9bee" },
       baraat:     { background: "#301d0d", accent: "#f2ad57" },
       wedding:    { background: "#2f121a", accent: "#f486a3" },
@@ -2384,9 +2390,14 @@
       cocktail:   { background: "#1d1733", accent: "#a99bf0" }
     };
     const THEME_ORDER = Object.keys(EVENT_THEMES);
-    function themeFor(name, index) {
+    function themeFor(name, index, override) {
       const t = String(name || "").toLowerCase();
+      // An explicit `kind` in CONFIG wins. "Sai Bhajan & Mehndi" matches /sai|bhajan/ before
+      // /mehndi/, so without this the only way to pick the green would be to reorder the chain --
+      // which would then mis-colour a bhajan-only card later.
+      if (override && EVENT_THEMES[override]) return Object.assign({ kind: override }, EVENT_THEMES[override]);
       const kind =
+        /sai|bhajan|satsang|kirtan|jagran/.test(t) ? "devotional" :
         /ganesh|ganpati|vinayak/.test(t) ? "ganesh" :
         /engage|sagai|ring|mangni|roka|tilak/.test(t) ? "engagement" :
         /mayr|bhaat/.test(t) ? "mayra" :
@@ -2560,32 +2571,68 @@
       if (track) {
         track.innerHTML = visibleFunctions.map((event, index) => {
           const title = event.name || "Celebration";
-          const theme = themeFor(title, index);
+          const theme = themeFor(title, index, event.kind);
           const image = event.image || "";
+        // `images: [...]` makes the tile swipeable; a single `image` behaves exactly as before.
+        const shots = (Array.isArray(event.images) && event.images.length)
+          ? event.images
+          : (image ? [image] : []);
           const pin = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
             '<path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" stroke="currentColor" stroke-width="1.7"/>' +
             '<circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.7"/></svg>';
           return '<article class="event-card" data-kind="' + theme.kind + '" data-image="' + inviteEscape(image) + '" style="--slide-bg:' + theme.background + ';--accent:' + theme.accent + ';--i:' + index + ';z-index:' + (index + 1) + '">' +
             '<span class="event-badge">' + inviteEscape(CONFIG.functionBadge || "Function") + ' ' + String(index + 1).padStart(2, "0") + '</span>' +
-            '<div class="event-media">' +
-            (image ? '<img src="' + inviteEscape(image) + '" alt="' + inviteEscape(title) + ' celebration" loading="lazy">' : '') + '</div>' +
+            '<div class="event-media' + (shots.length > 1 ? ' is-gallery' : '') + '">' +
+            shots.map(function (src, n) {
+            return '<img src="' + inviteEscape(src) + '"' +
+                   (event.focal ? ' style="object-position:' + inviteEscape(event.focal) + '"' : '') +
+                   ' alt="' + inviteEscape(title) +
+                   (shots.length > 1 ? ' (' + (n + 1) + ' of ' + shots.length + ')' : ' celebration') +
+                   '" loading="lazy">';
+          }).join('') + '</div>' +
+        (shots.length > 1
+          ? '<div class="event-dots" aria-hidden="true">' +
+            shots.map(function (_, n) { return '<i' + (n ? '' : ' class="on"') + '></i>'; }).join('') +
+            '</div>'
+          : '') +
             '<div class="event-copy">' +
             '<h3>' + inviteEscape(title) + '</h3>' +
             (event.details ? '<p class="event-note">' + inviteEscape(event.details) + '</p>' : '') +
+            '<div class="event-divider" aria-hidden="true"><i></i><span>&#10086;</span><i></i></div>' +
+            '<div class="event-foot">' +
             '<div class="event-when">' +
             '<b>' + [event.day ? 'On ' + inviteEscape(event.day) : '', inviteEscape(event.date || '')].filter(Boolean).join(' | ') + '</b>' +
             '<b>' + inviteEscape(event.time) + '</b></div>' +
-            '<div class="event-divider" aria-hidden="true"><i></i><span>&#10086;</span><i></i></div>' +
             '<div class="event-place event-where">' + pin + '<span class="event-where-text">' +
-            '<b>' + inviteEscape(event.venueArea) + '</b>' +
-            '<span>' + inviteEscape(event.venueName) + '</span></span></div>' +
+            ((event.venueUrl && !event.venueName)
+              ? '<b><a class="event-where-link" href="' + inviteEscape(event.venueUrl) + '" target="_blank" rel="noopener noreferrer">' + inviteEscape(event.venueArea) + '</a></b>'
+              : '<b>' + inviteEscape(event.venueArea) + '</b>') +
+            (event.venueUrl
+              ? '<a class="event-where-link" href="' + inviteEscape(event.venueUrl) + '" target="_blank" rel="noopener noreferrer">' + inviteEscape(event.venueName) + '</a>'
+              : '<span>' + inviteEscape(event.venueName) + '</span>') + '</span></div>' +
+            '</div>' +
             '</div></article>';
         }).join("");
       }
       if (typeof window.__updateCountdown === "function") window.__updateCountdown();
     }
 
+    // Light up the dot for whichever slide is centred. Delegated and passive so it cannot
+    // interfere with the vertical card stacking.
+    function wireGalleryDots() {
+      document.querySelectorAll(".event-media.is-gallery").forEach(function (strip) {
+        const dots = strip.parentElement && strip.parentElement.querySelector(".event-dots");
+        if (!dots || strip.dataset.dotsWired) return;
+        strip.dataset.dotsWired = "1";
+        strip.addEventListener("scroll", function () {
+          const n = Math.round(strip.scrollLeft / Math.max(strip.clientWidth, 1));
+          dots.querySelectorAll("i").forEach(function (dot, k) { dot.classList.toggle("on", k === n); });
+        }, { passive: true });
+      });
+    }
+
     render();
+    wireGalleryDots();
   </script>
 
   <script>
